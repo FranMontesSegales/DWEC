@@ -1,0 +1,1 @@
+Estrrctura de carpeta para los archivs del Boletin2
