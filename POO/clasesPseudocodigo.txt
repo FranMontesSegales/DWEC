@@ -1,0 +1,8 @@
++ class Fecha: 
+	- int dia;
+	- int mes;
+	- int anio;
+
+- esBisiesto:
+	si modulo de 4 es 0 y modulo de 100 es distinto de 0 o modulo de 400 es 0 entonces
+	esBisiesto lodemas no.
