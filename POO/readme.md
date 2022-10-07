@@ -12,7 +12,7 @@
 
 
 
-Se van a representar las Clases, Objetos e Instancias en Pseudocódigo, Java y Phyton.
+Se van a representar las Clases, Objetos e Instancias en Pseudocódigo, Java y Phyton, para ello se crearan 3 archivos 1 llamado ClasesPseudocodigo.txt, fecha.java y Alumno.py
 
 
 
@@ -27,7 +27,7 @@ Se van a representar las Clases, Objetos e Instancias en Pseudocódigo, Java y P
 
 
 
-`Define de forma genérica cómo van a ser los objetos de un tipo`
+Se definiran las clases en el caso de Java Fecha y en el de Phyton Alumno con sus objetos.
 
 
 
@@ -37,7 +37,7 @@ Se van a representar las Clases, Objetos e Instancias en Pseudocódigo, Java y P
 
 
 
-`Es la definición de una clase. Global y genérica`
+Se dejine los objetos de las diferentes clases como Lorian de la clas Alumnos o una fecha concreta en el caso de Fecha
 
 
 
@@ -47,7 +47,7 @@ Se van a representar las Clases, Objetos e Instancias en Pseudocódigo, Java y P
 
 
 
-`Creadas a partir de una clase, son capaces de modificar métodos y atributos de forma independiente`
+Se declaran los contructores para poder crear los objetos posteriormente para los alumnos y las fechas
 
 
 
@@ -62,7 +62,7 @@ Se van a representar las Clases, Objetos e Instancias en Pseudocódigo, Java y P
 
 
 
-Para realizar este apartado de Tarea INTERMEDIO, he creado un fichero de texto para realizar el apartado de _Pseudocodigo_, una carpeta para _Java_ y otra para _Python_.
+Para realizar este apartado de Tarea INTERMEDIO, he creado un fichero de texto para realizar el apartado de _ClasesPseudocodigo_, una carpeta para _Java_ y otra para _Python_.
 
 
 
@@ -70,18 +70,4 @@ Para realizar este apartado de Tarea INTERMEDIO, he creado un fichero de texto p
 
 
 
-**UML de ejemplo para la solución**
 
-![UML](docs/UML.PNG)
-
-
-
-
----
-
-
-
-
-### 💡 Pruebas
-
-![Python](url imagen)
