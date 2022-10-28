@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title></title>
+</head>
+
+<body>
+  <script>
+    var rows;
+    var cols;
+    const banco = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    let aleatoria = "";
+
+    function createTable(rows, cols) {
+
+        var table = document.createElement('table');
+        table.setAttribute('border', '1');
+
+        for (let i = 0; i < rows; i++) {
+          var tRow = document.createElement('tr');
+          for (let j = 0; j < cols; j++) {
+            var tData = document.createElement('td');
+            tData.textContent = aleatoria += banco.charAt(Math.floor(Math.random() * banco.length));
+            tRow.appendChild(tData);
+          }
+          table.appendChild(tRow);
+        }
+        document.body.appendChild(table);
+      }
+    createTable(12, 8);
+  </script>
+
+</body>
+
+</html>
