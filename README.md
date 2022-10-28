@@ -34,6 +34,6 @@ y por ultimo con createTable(n, n); llamaremos al metodo y le indicaremos el num
 
 
 
-![GIF](gifEjercicio.mkv)![gifEjercicio](https://user-images.githubusercontent.com/95092587/198666507-a0bb5d75-0134-4d83-bd4e-8ba3b4120847.gif)
+![gifEjercicio](https://user-images.githubusercontent.com/95092587/198666507-a0bb5d75-0134-4d83-bd4e-8ba3b4120847.gif)
 
 
