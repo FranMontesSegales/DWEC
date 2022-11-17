@@ -56,3 +56,4 @@ Dado que tenemos una tabla con las capitales y países,
 Cuando introducimos en el buscador “Alemania”,
 Entonces aparecerá la tabla sin valores.
 
+![GifPrueba](https://user-images.githubusercontent.com/95092587/202335906-d834c0c0-ee8b-4481-9096-78369913e461.gif)
