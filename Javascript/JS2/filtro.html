@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="tablaFiltro" content="width=device-width, initial-scale=1">
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+#filtroP {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#filtroC {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#tabla {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#tabla th, #tabla td {
+  text-align: left;
+  padding: 12px;
+}
+
+#tabla tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#tabla tr.header, #tabla tr:hover {
+  background-color: #f1f1f1;
+}
+</style>
+</head>
+<body>
+
+<h2>Paises y Capitales</h2>
+<input type="text" id="filtroC" onkeyup="filtrarCapital()" placeholder="Buscar Capital..." title="filtrillo">
+<input type="text" id="filtroP" onkeyup="filtrarPais()" placeholder="Buscar Pais..." title="filtrito"> 
+
+
+<table id="tabla">
+   
+</table>
+
+<script src="TablaPais.js" type="text/Javascript"></script>
+</body>
+</html>
