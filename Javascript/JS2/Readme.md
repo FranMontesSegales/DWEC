@@ -64,6 +64,7 @@ Criterio 4:
 Dado que tenemos una tabla con las capitales y países,
 Cuando introducimos en el buscador “Alemania”,
 Entonces aparecerá en la tabla.
+
 ![prueba4](https://user-images.githubusercontent.com/95092587/202337456-9f162c97-1eaa-4682-8f91-816bbd160323.png)
 
 
