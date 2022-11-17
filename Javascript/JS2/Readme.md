@@ -41,18 +41,31 @@ Dado que tenemos una tabla con las capitales y países,
 Cuando introducimos en el buscador “Berlín”,
 Entonces aparecerá la tabla con esa capital y país únicamente.
 
+![prueba1](https://user-images.githubusercontent.com/95092587/202337421-f797d518-22d2-4026-8241-89b8447b057f.png)
+
+
 Criterio 2:
 Dado que tenemos una tabla con las capitales y países,
 Cuando introducimos en el buscador “cú”,
 Entonces aparecerá la tabla con la capital “Moscú” y su país únicamente.
+
+
+![prueba2](https://user-images.githubusercontent.com/95092587/202337431-834f4a4b-218f-4e6d-b68d-2283a1c33751.png)
 
 Criterio 3:
 Dado que tenemos una tabla con las capitales y países,
 Cuando introducimos en el buscador “cu”,
 Entonces aparecerá la tabla sin valores.
 
+![prueba3](https://user-images.githubusercontent.com/95092587/202337437-7aac7b7a-ec12-48d7-8252-ea8823143e8e.png)
+
+
 Criterio 4:
 Dado que tenemos una tabla con las capitales y países,
 Cuando introducimos en el buscador “Alemania”,
-Entonces aparecerá la tabla sin valores.
+Entonces aparecerá en la tabla.
 
+![prueba4](https://user-images.githubusercontent.com/95092587/202337456-9f162c97-1eaa-4682-8f91-816bbd160323.png)
+
+
+![GifPrueba](https://user-images.githubusercontent.com/95092587/202335906-d834c0c0-ee8b-4481-9096-78369913e461.gif)
