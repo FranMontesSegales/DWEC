@@ -1,6 +1,9 @@
 function myfunc() {
 
 	// configuracion de los huecos del tablero
+	var J1 = 0;
+	var J2 = 0;
+	
 	var b1, b2, b3, b4, b5, b6, b7, b8, b9;
 	b1 = document.getElementById("b1").value;
 	b2 = document.getElementById("b2").value;
@@ -12,11 +15,15 @@ function myfunc() {
 	b8 = document.getElementById("b8").value;
 	b9 = document.getElementById("b9").value;
 
+	
+
 	// configuracion del jugador X y desactivar el hueco del tablero
 	if ((b1 == 'x' || b1 == 'X') && (b2 == 'x' ||
 		b2 == 'X') && (b3 == 'x' || b3 == 'X')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador X";
+			J1++
+			let textJ1= J1.toString()
+		document.getElementById('print').innerHTML = "Victoria para el jugador X";
+		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
@@ -28,8 +35,10 @@ function myfunc() {
 	}
 	else if ((b1 == 'x' || b1 == 'X') && (b4 == 'x' ||
 		b4 == 'X') && (b7 == 'x' || b7 == 'X')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador X";
+			J1++
+			let textJ1= J1.toString()
+		document.getElementById('print').innerHTML = "Victoria para el jugador X";
+		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b5").disabled = true;
@@ -41,8 +50,10 @@ function myfunc() {
 	}
 	else if ((b7 == 'x' || b7 == 'X') && (b8 == 'x' ||
 		b8 == 'X') && (b9 == 'x' || b9 == 'X')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador X";
+			J1++
+			let textJ1= J1.toString()
+		document.getElementById('print').innerHTML = "Victoria para el jugador X";
+		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
@@ -54,8 +65,10 @@ function myfunc() {
 	}
 	else if ((b3 == 'x' || b3 == 'X') && (b6 == 'x' ||
 		b6 == 'X') && (b9 == 'x' || b9 == 'X')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador X";
+			J1++
+			let textJ1= J1.toString()
+		document.getElementById('print').innerHTML = "Victoria para el jugador X";
+		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -67,8 +80,10 @@ function myfunc() {
 	}
 	else if ((b1 == 'x' || b1 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b9 == 'x' || b9 == 'X')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador X";
+			J1++
+			let textJ1= J1.toString()
+		document.getElementById('print').innerHTML = "Victoria para el jugador X";
+		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -80,8 +95,10 @@ function myfunc() {
 	}
 	else if ((b3 == 'x' || b3 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b7 == 'x' || b7 == 'X')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador X";
+			J1++
+			let textJ1= J1.toString()
+		document.getElementById('print').innerHTML = "Victoria para el jugador X";
+		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -93,8 +110,10 @@ function myfunc() {
 	}
 	else if ((b2 == 'x' || b2 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b8 == 'x' || b8 == 'X')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador X";
+			J1++
+			let textJ1= J1.toString()
+		document.getElementById('print').innerHTML = "Victoria para el jugador X";
+		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -106,8 +125,10 @@ function myfunc() {
 	}
 	else if ((b4 == 'x' || b4 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b6 == 'x' || b6 == 'X')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador X";
+			J1++
+			let textJ1= J1.toString()
+		document.getElementById('print').innerHTML = "Victoria para el jugador X";
+		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
@@ -121,8 +142,7 @@ function myfunc() {
 	// configuración del jugador 0 y desactiva las casillas ocupadas
 	else if ((b1 == '0' || b1 == '0') && (b2 == '0' ||
 		b2 == '0') && (b3 == '0' || b3 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador 0";
+		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
@@ -134,8 +154,7 @@ function myfunc() {
 	}
 	else if ((b1 == '0' || b1 == '0') && (b4 == '0' ||
 		b4 == '0') && (b7 == '0' || b7 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador 0";
+		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b5").disabled = true;
@@ -147,8 +166,7 @@ function myfunc() {
 	}
 	else if ((b7 == '0' || b7 == '0') && (b8 == '0' ||
 		b8 == '0') && (b9 == '0' || b9 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador 0";
+		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
@@ -160,8 +178,7 @@ function myfunc() {
 	}
 	else if ((b3 == '0' || b3 == '0') && (b6 == '0' ||
 		b6 == '0') && (b9 == '0' || b9 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador 0";
+		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -173,8 +190,7 @@ function myfunc() {
 	}
 	else if ((b1 == '0' || b1 == '0') && (b5 == '0' ||
 		b5 == '0') && (b9 == '0' || b9 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador 0";
+		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -186,8 +202,7 @@ function myfunc() {
 	}
 	else if ((b3 == '0' || b3 == '0') && (b5 == '0' ||
 		b5 == '0') && (b7 == '0' || b7 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador 0";
+		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -199,8 +214,7 @@ function myfunc() {
 	}
 	else if ((b2 == '0' || b2 == '0') && (b5 == '0' ||
 		b5 == '0') && (b8 == '0' || b8 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador 0";
+		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -212,8 +226,7 @@ function myfunc() {
 	}
 	else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||
 		b5 == '0') && (b6 == '0' || b6 == '0')) {
-		document.getElementById('print')
-			.innerHTML = "Victoria para el jugador 0";
+		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
@@ -231,8 +244,7 @@ function myfunc() {
 		b5 == '0') && (b6 == 'X' || b6 == '0') &&
 		(b7 == 'X' || b7 == '0') && (b8 == 'X' ||
 		b8 == '0') && (b9 == 'X' || b9 == '0')) {
-			document.getElementById('print')
-				.innerHTML = "Empate";
+			document.getElementById('print').innerHTML = "Empate";
 		//Alerta de Empate
 			window.alert('Empate');
 	}
@@ -240,19 +252,23 @@ function myfunc() {
 
 		// Resultados de cada turno
 		if (flag == 1) {
-			document.getElementById('print')
-				.innerHTML = "Turno de player X ";
+			document.getElementById('print').innerHTML = "Turno de player X ";
 		}
 		else {
-			document.getElementById('print')
-				.innerHTML = "Turno de player 0 ";
+			document.getElementById('print').innerHTML = "Turno de player 0 ";
 		}
 	}
 }
 
 // Reiniciar el juego
 function myfunc_2() {
-	location.reload();
+
+	if (textJ1 = true) {
+		
+	} else {
+		
+	}
+
 	document.getElementById('b1').value = '';
 	document.getElementById("b2").value = '';
 	document.getElementById("b3").value = '';
@@ -262,6 +278,18 @@ function myfunc_2() {
 	document.getElementById("b7").value = '';
 	document.getElementById("b8").value = '';
 	document.getElementById("b9").value = '';
+
+	document.getElementById("b1").disabled = false;
+	document.getElementById("b2").disabled = false;
+	document.getElementById("b3").disabled = false;
+	document.getElementById("b4").disabled = false;
+	document.getElementById("b5").disabled = false;
+	document.getElementById("b6").disabled = false;
+	document.getElementById("b7").disabled = false;
+	document.getElementById("b8").disabled = false;
+	document.getElementById("b9").disabled = false;
+	
+
 
 }
 
