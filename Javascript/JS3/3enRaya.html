@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 
 <head>
-	<meta name="viewport" content=
-		"width=device-width, initial-scale=1.0">
-
-	<!-- CSS file Included -->
+	<meta name="viewport" content= "width=device-width, initial-scale=1.0">
 	<link rel="stylesheet">
-
-	<!-- JavaScript file included -->
 	<script src="3enRaya.js"></script>
 </head>
+
 <style>
-	/* CSS Code */
-	/* Heading */
+	body {
+		background-color: rgb(134, 134, 134);
+		
+	}
+
 	h1 {
-		color: rgb(255, 0, 0);
+		color: rgb(79, 30, 255);
 		font-size: 45px;
 	}
 
@@ -30,43 +29,37 @@
 		text-align: center;
 	}
 
-	/* Reset Button */
-	#but {
+	/* Boton de reinicio */
+	#Boton {
 		box-sizing: border-box;
 		width: 95px;
 		height: 40px;
-		border: 1px solid dodgerblue;
+		border: 1px solid rgb(0, 0, 0);
 		margin: auto;
 		border-radius: 4px;
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
 
-		background-color: dodgerblue;
+
+		background-color: rgb(79, 30, 255);
 		color: white;
 		font-size: 20px;
 		cursor: pointer;
 	}
 
-	/* Player turn space */
 	#print {
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
 
-		color: dodgerblue;
+
+		color: rgb(0, 0, 0);
 		font-size: 20px;
 	}
 
-	/* Main Container */
 	#main {
 		text-align: center;
 	}
 
-	/* Game Instruction Text */
 	#ins {
-		font-family: Verdana,
-			Geneva, Tahoma, sans-serif;
+
 			
-		color: dodgerblue;
+		color: rgb(0, 0, 0);
 		font-size: 17px;
 	}
 </style>
@@ -76,17 +69,17 @@
 	<div id="main">
 		<h1>3 En Raya</h1>
 
-		<!-- Game Instructions -->
-		<p id="ins">Haz clic en los cuadrados<br><br>1º jugador seria 
-			<b>Player X</b><br> y 2º
-			jugador como <b>Player 0</b>
+
+		<p id="ins">Haz clic en los cuadrados<br>
+			<br>1º jugador como <b>Jugador X</b>
+			<br> 2º jugador como <b>Jugador 0</b>
 		</p>
 
 
 
 
 		<br><br>
-		<!-- 3*3 grid of Boxes -->
+		<!-- 3*3 grid tablero -->
 		<input type="text" id="b1" onclick=
 			"myfunc_3(); myfunc();" readonly>
 
@@ -116,15 +109,15 @@
 		<input type="text" id="b9" onclick=
 			"myfunc_11();myfunc();" readonly>
 
-		<!-- Grid end here -->
+
 		<br><br><br>
-		<!-- Button to reset game -->
-		<button id="but" onclick="myfunc_2()">
+
+		<!-- Boton de reinicio -->
+		<button id="Boton" onclick="myfunc_2()">
 			RESET
 		</button>
 
 		<br><br>
-		<!-- Space to show player turn -->
 		<p id="print"></p>
 
 
