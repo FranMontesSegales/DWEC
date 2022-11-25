@@ -169,7 +169,7 @@ function myfunc() {
 	else if ((b1 == '0' || b1 == '0') && (b2 == '0' ||
 		b2 == '0') && (b3 == '0' || b3 == '0')) {
 
-			J2++
+		J2++
 		sessionStorage.setItem("numero2", J2);
 		let textJ2 = sessionStorage.getItem("numero2");
 		document.getElementById("contador2").innerHTML = textJ2;
@@ -187,7 +187,7 @@ function myfunc() {
 	else if ((b1 == '0' || b1 == '0') && (b4 == '0' ||
 		b4 == '0') && (b7 == '0' || b7 == '0')) {
 
-			J2++
+		J2++
 		sessionStorage.setItem("numero2", J2);
 		let textJ2 = sessionStorage.getItem("numero2");
 		document.getElementById("contador2").innerHTML = textJ2;
@@ -205,7 +205,7 @@ function myfunc() {
 	else if ((b7 == '0' || b7 == '0') && (b8 == '0' ||
 		b8 == '0') && (b9 == '0' || b9 == '0')) {
 
-			J2++
+		J2++
 		sessionStorage.setItem("numero2", J2);
 		let textJ2 = sessionStorage.getItem("numero2");
 		document.getElementById("contador2").innerHTML = textJ2;
@@ -223,7 +223,7 @@ function myfunc() {
 	else if ((b3 == '0' || b3 == '0') && (b6 == '0' ||
 		b6 == '0') && (b9 == '0' || b9 == '0')) {
 
-			J2++
+		J2++
 		sessionStorage.setItem("numero2", J2);
 		let textJ2 = sessionStorage.getItem("numero2");
 		document.getElementById("contador2").innerHTML = textJ2;
@@ -241,7 +241,7 @@ function myfunc() {
 	else if ((b1 == '0' || b1 == '0') && (b5 == '0' ||
 		b5 == '0') && (b9 == '0' || b9 == '0')) {
 
-			J2++
+		J2++
 		sessionStorage.setItem("numero2", J2);
 		let textJ2 = sessionStorage.getItem("numero2");
 		document.getElementById("contador2").innerHTML = textJ2;
@@ -259,7 +259,7 @@ function myfunc() {
 	else if ((b3 == '0' || b3 == '0') && (b5 == '0' ||
 		b5 == '0') && (b7 == '0' || b7 == '0')) {
 
-			J2++
+		J2++
 		sessionStorage.setItem("numero2", J2);
 		let textJ2 = sessionStorage.getItem("numero2");
 		document.getElementById("contador2").innerHTML = textJ2;
@@ -277,7 +277,7 @@ function myfunc() {
 	else if ((b2 == '0' || b2 == '0') && (b5 == '0' ||
 		b5 == '0') && (b8 == '0' || b8 == '0')) {
 
-			J2++
+		J2++
 		sessionStorage.setItem("numero2", J2);
 		let textJ2 = sessionStorage.getItem("numero2");
 		document.getElementById("contador2").innerHTML = textJ2;
@@ -295,7 +295,7 @@ function myfunc() {
 	else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||
 		b5 == '0') && (b6 == '0' || b6 == '0')) {
 
-			J2++
+		J2++
 		sessionStorage.setItem("numero2", J2);
 		let textJ2 = sessionStorage.getItem("numero2");
 		document.getElementById("contador2").innerHTML = textJ2;
