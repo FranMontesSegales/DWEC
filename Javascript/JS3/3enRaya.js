@@ -1,8 +1,10 @@
+var J1 = 0;
+var J2 = 0;
+
 function myfunc() {
 
 	// configuracion de los huecos del tablero
-	var J1 = 0;
-	var J2 = 0;
+	
 	
 	var b1, b2, b3, b4, b5, b6, b7, b8, b9;
 	b1 = document.getElementById("b1").value;
@@ -20,25 +22,31 @@ function myfunc() {
 	// configuracion del jugador X y desactivar el hueco del tablero
 	if ((b1 == 'x' || b1 == 'X') && (b2 == 'x' ||
 		b2 == 'X') && (b3 == 'x' || b3 == 'X')) {
-			J1++
-			let textJ1= J1.toString()
+
+		J1++;
+		sessionStorage.setItem("numero", J1);
+		let textJ1 = sessionStorage.getItem("numero");
+		document.getElementById("contador").innerHTML = textJ1;
+			
 		document.getElementById('print').innerHTML = "Victoria para el jugador X";
-		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
-		document.getElementById("b9").disabled = true;
+		document.getElementById("b9").disabled = true; 
 		//Alerta de Jugador ganador
 		window.alert('Victoria para el jugador X');
 	}
 	else if ((b1 == 'x' || b1 == 'X') && (b4 == 'x' ||
 		b4 == 'X') && (b7 == 'x' || b7 == 'X')) {
-			J1++
-			let textJ1= J1.toString()
+		
+		J1++
+		sessionStorage.setItem("numero", J1);
+		let textJ1 = sessionStorage.getItem("numero");
+		document.getElementById("contador").innerHTML = textJ1;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador X";
-		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b5").disabled = true;
@@ -50,10 +58,13 @@ function myfunc() {
 	}
 	else if ((b7 == 'x' || b7 == 'X') && (b8 == 'x' ||
 		b8 == 'X') && (b9 == 'x' || b9 == 'X')) {
-			J1++
-			let textJ1= J1.toString()
+		
+		J1++
+		sessionStorage.setItem("numero", J1);
+		let textJ1 = sessionStorage.getItem("numero");
+		document.getElementById("contador").innerHTML = textJ1;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador X";
-		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
@@ -65,10 +76,13 @@ function myfunc() {
 	}
 	else if ((b3 == 'x' || b3 == 'X') && (b6 == 'x' ||
 		b6 == 'X') && (b9 == 'x' || b9 == 'X')) {
-			J1++
-			let textJ1= J1.toString()
+		
+		J1++
+		sessionStorage.setItem("numero", J1);
+		let textJ1 = sessionStorage.getItem("numero");
+		document.getElementById("contador").innerHTML = textJ1;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador X";
-		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -80,10 +94,13 @@ function myfunc() {
 	}
 	else if ((b1 == 'x' || b1 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b9 == 'x' || b9 == 'X')) {
-			J1++
-			let textJ1= J1.toString()
+		
+		J1++
+		sessionStorage.setItem("numero", J1);
+		let textJ1 = sessionStorage.getItem("numero");
+		document.getElementById("contador").innerHTML = textJ1;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador X";
-		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -95,10 +112,13 @@ function myfunc() {
 	}
 	else if ((b3 == 'x' || b3 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b7 == 'x' || b7 == 'X')) {
-			J1++
-			let textJ1= J1.toString()
+		
+		J1++
+		sessionStorage.setItem("numero", J1);
+		let textJ1 = sessionStorage.getItem("numero");
+		document.getElementById("contador").innerHTML = textJ1;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador X";
-		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -110,10 +130,13 @@ function myfunc() {
 	}
 	else if ((b2 == 'x' || b2 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b8 == 'x' || b8 == 'X')) {
-			J1++
-			let textJ1= J1.toString()
+		
+		J1++
+		sessionStorage.setItem("numero", J1);
+		let textJ1 = sessionStorage.getItem("numero");
+		document.getElementById("contador").innerHTML = textJ1;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador X";
-		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b3").disabled = true;
 		document.getElementById("b4").disabled = true;
@@ -125,10 +148,13 @@ function myfunc() {
 	}
 	else if ((b4 == 'x' || b4 == 'X') && (b5 == 'x' ||
 		b5 == 'X') && (b6 == 'x' || b6 == 'X')) {
-			J1++
-			let textJ1= J1.toString()
+		
+		J1++
+		sessionStorage.setItem("numero", J1);
+		let textJ1 = sessionStorage.getItem("numero");
+		document.getElementById("contador").innerHTML = textJ1;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador X";
-		document.getElementById('contador').innerHTML = textJ1;
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
@@ -142,6 +168,12 @@ function myfunc() {
 	// configuración del jugador 0 y desactiva las casillas ocupadas
 	else if ((b1 == '0' || b1 == '0') && (b2 == '0' ||
 		b2 == '0') && (b3 == '0' || b3 == '0')) {
+
+			J2++
+		sessionStorage.setItem("numero2", J2);
+		let textJ2 = sessionStorage.getItem("numero2");
+		document.getElementById("contador2").innerHTML = textJ2;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
@@ -154,6 +186,12 @@ function myfunc() {
 	}
 	else if ((b1 == '0' || b1 == '0') && (b4 == '0' ||
 		b4 == '0') && (b7 == '0' || b7 == '0')) {
+
+			J2++
+		sessionStorage.setItem("numero2", J2);
+		let textJ2 = sessionStorage.getItem("numero2");
+		document.getElementById("contador2").innerHTML = textJ2;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
@@ -166,6 +204,12 @@ function myfunc() {
 	}
 	else if ((b7 == '0' || b7 == '0') && (b8 == '0' ||
 		b8 == '0') && (b9 == '0' || b9 == '0')) {
+
+			J2++
+		sessionStorage.setItem("numero2", J2);
+		let textJ2 = sessionStorage.getItem("numero2");
+		document.getElementById("contador2").innerHTML = textJ2;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
@@ -178,6 +222,12 @@ function myfunc() {
 	}
 	else if ((b3 == '0' || b3 == '0') && (b6 == '0' ||
 		b6 == '0') && (b9 == '0' || b9 == '0')) {
+
+			J2++
+		sessionStorage.setItem("numero2", J2);
+		let textJ2 = sessionStorage.getItem("numero2");
+		document.getElementById("contador2").innerHTML = textJ2;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
@@ -190,6 +240,12 @@ function myfunc() {
 	}
 	else if ((b1 == '0' || b1 == '0') && (b5 == '0' ||
 		b5 == '0') && (b9 == '0' || b9 == '0')) {
+
+			J2++
+		sessionStorage.setItem("numero2", J2);
+		let textJ2 = sessionStorage.getItem("numero2");
+		document.getElementById("contador2").innerHTML = textJ2;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b2").disabled = true;
 		document.getElementById("b3").disabled = true;
@@ -202,6 +258,12 @@ function myfunc() {
 	}
 	else if ((b3 == '0' || b3 == '0') && (b5 == '0' ||
 		b5 == '0') && (b7 == '0' || b7 == '0')) {
+
+			J2++
+		sessionStorage.setItem("numero2", J2);
+		let textJ2 = sessionStorage.getItem("numero2");
+		document.getElementById("contador2").innerHTML = textJ2;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
@@ -214,6 +276,12 @@ function myfunc() {
 	}
 	else if ((b2 == '0' || b2 == '0') && (b5 == '0' ||
 		b5 == '0') && (b8 == '0' || b8 == '0')) {
+
+			J2++
+		sessionStorage.setItem("numero2", J2);
+		let textJ2 = sessionStorage.getItem("numero2");
+		document.getElementById("contador2").innerHTML = textJ2;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b3").disabled = true;
@@ -226,6 +294,12 @@ function myfunc() {
 	}
 	else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||
 		b5 == '0') && (b6 == '0' || b6 == '0')) {
+
+			J2++
+		sessionStorage.setItem("numero2", J2);
+		let textJ2 = sessionStorage.getItem("numero2");
+		document.getElementById("contador2").innerHTML = textJ2;
+
 		document.getElementById('print').innerHTML = "Victoria para el jugador 0";
 		document.getElementById("b1").disabled = true;
 		document.getElementById("b2").disabled = true;
@@ -253,6 +327,7 @@ function myfunc() {
 		// Resultados de cada turno
 		if (flag == 1) {
 			document.getElementById('print').innerHTML = "Turno de player X ";
+			
 		}
 		else {
 			document.getElementById('print').innerHTML = "Turno de player 0 ";
@@ -260,14 +335,11 @@ function myfunc() {
 	}
 }
 
+
+
+
 // Reiniciar el juego
 function myfunc_2() {
-
-	if (textJ1 = true) {
-		
-	} else {
-		
-	}
 
 	document.getElementById('b1').value = '';
 	document.getElementById("b2").value = '';
@@ -278,7 +350,7 @@ function myfunc_2() {
 	document.getElementById("b7").value = '';
 	document.getElementById("b8").value = '';
 	document.getElementById("b9").value = '';
-
+	
 	document.getElementById("b1").disabled = false;
 	document.getElementById("b2").disabled = false;
 	document.getElementById("b3").disabled = false;
@@ -288,8 +360,6 @@ function myfunc_2() {
 	document.getElementById("b7").disabled = false;
 	document.getElementById("b8").disabled = false;
 	document.getElementById("b9").disabled = false;
-	
-
 
 }
 
