@@ -1,6 +1,5 @@
-Estrrctura de carpeta para los archivs del Boletin3
+Estructura de carpeta para los archivs del Boletin3
 
-Estrrctura de carpeta para los archivs del Boletin3
 
 Programación Orientada a Objetos
 Tarea INTERMEDIO.
