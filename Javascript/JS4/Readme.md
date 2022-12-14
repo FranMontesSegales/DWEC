@@ -18,7 +18,7 @@ Programación Orientada a Objetos Tarea INTERMEDIO.
 
 
 
-Criterio 2: buscas un pokemon que no exista y no aparezcaa nada
+Criterio 2: buscas un pokemon que no exista y no aparezca nada
 
 
 ![prueba2](https://user-images.githubusercontent.com/95092587/207674285-acad5ef3-a7e7-42ea-8996-7a918d98e7c4.gif)
