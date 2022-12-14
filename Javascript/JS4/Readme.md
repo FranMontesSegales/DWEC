@@ -8,6 +8,9 @@ Programación Orientada a Objetos Tarea INTERMEDIO.
 
 
 
+![diagrama](https://user-images.githubusercontent.com/95092587/207674965-959c89a8-560e-4f3e-9f5e-5c485eae0749.png)
+
+
 📐 Pruebas Criterio 1: buscas un pokemon con o sin mayuscular y aparece altura, peso, tipo, version y sprite
 
 
