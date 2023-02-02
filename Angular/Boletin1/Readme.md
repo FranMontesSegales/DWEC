@@ -2,7 +2,7 @@ Estrrctura de carpeta para los archivs del Boletin1
 
 
 
-Programación Orientada a Objetos Tarea INTERMEDIO.
+Angular Tarea AVANZADO.
 
 🔍 Análisis del problema Se pide hacer un proyecto de angular que contenga un login y un register
 
