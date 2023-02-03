@@ -1,4 +1,4 @@
-Estrrctura de carpeta para los archivs del Boletin1
+Estructura de carpeta para los archivs del Boletin1
 
 
 
