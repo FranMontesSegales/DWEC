@@ -1,4 +1,4 @@
-Estrrctura de carpeta para los archivs del Boletin2
+Estructura de carpeta para los archivs del Boletin2
 
 Angular Tarea AVANZADO.
 
