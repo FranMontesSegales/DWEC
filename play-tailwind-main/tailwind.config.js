@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./*.html"],
+  content: ["./*.html", "./assets/**/*.js"],
 
   theme: {
     screens: {
@@ -38,22 +38,10 @@ module.exports = {
         "switch-1": "0px 0px 5px rgba(0, 0, 0, 0.15)",
         testimonial: "0px 60px 120px -20px #EBEFFD",
       },
-      keyframes:{
-          fadeInLeft : {
-            from : {transform: 'rotateZ(0deg)'},
-            to : {transform: 'rotateZ(140deg)'},
-          },
-          fadeInRight : {
-            from : {transform: 'rotateZ(0deg)'},
-            to : {transform: 'rotateZ(40deg)'},
-          },
-        },
     },
-    animation: {
-          fadeInLeft : 'fadeInLeft 2s linear',
-          fadeInRight : 'fromRight 2s linear',
-        },
   },
-  
+  variants: {
+    extend: {},
+  },
+  plugins: [],
 };
-
