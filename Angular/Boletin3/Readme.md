@@ -10,13 +10,13 @@ ej: <p [ngStyle]="{'color':'pink','background-color':'#jf1'>caca de mono</p>
 /// ngTemplate ///
  Es una plantilla de angular, la cual se puede reutilizar con facilidad para crear componentes.
   
-  <table>
+  '<table>
   <tr *ngFor="let item of lista">
     <td>
             {{item}}
   </td>
     </tr>
-</table>
+</table>'
 
 /// ngClass ///
 Permite establecer una o más clases a un elemento HTML.
