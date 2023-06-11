@@ -1,15 +1,23 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
-import { RecuperarComponent } from './recuperar/recuperar.component';
-import { VerificarComponent } from './verificar/verificar.component';
-import { InicioComponent } from './inicio/inicio.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
+import { RecuperarComponent } from './components/recuperar/recuperar.component';
+import { VerificarComponent } from './components/verificar/verificar.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+
+
 
 @NgModule({
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule
+  ],
   declarations: [
     AppComponent,
     LoginComponent,
@@ -17,10 +25,6 @@ import { InicioComponent } from './inicio/inicio.component';
     RecuperarComponent,
     VerificarComponent,
     InicioComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

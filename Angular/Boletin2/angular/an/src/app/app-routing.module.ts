@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { InicioComponent } from './inicio/inicio.component';
-import { LoginComponent } from './login/login.component';
-import { RecuperarComponent } from './recuperar/recuperar.component';
-import { RegisterComponent } from './register/register.component';
-import { VerificarComponent } from './verificar/verificar.component';
+import { InicioComponent } from './components/inicio/inicio.component';
+import { LoginComponent } from './components/login/login.component';
+import { RecuperarComponent } from './components/recuperar/recuperar.component';
+import { RegisterComponent } from './components/register/register.component';
+import { VerificarComponent } from './components/verificar/verificar.component';
+
+
 
 const routes: Routes = [
   { path: '', redirectTo: '/login', pathMatch: 'full' },
@@ -13,8 +15,6 @@ const routes: Routes = [
   { path: 'recuperar', component: RecuperarComponent },
   { path: 'inicio', component: InicioComponent },
   { path: 'verificar', component: VerificarComponent }
-
-
 ];
 
 @NgModule({

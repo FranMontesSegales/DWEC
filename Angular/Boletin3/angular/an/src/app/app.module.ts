@@ -5,6 +5,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SelectorComponent } from './componentes/selector/selector.component';
 import { PokemonComponent } from './pages/pokemon/pokemon.component';
+import { AccordionModule } from 'ngx-bootstrap/accordion';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { PokemonComponent } from './pages/pokemon/pokemon.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AccordionModule.forRoot(),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
